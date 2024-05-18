@@ -170,7 +170,6 @@ class EmotionViewController: UIViewController {
         num9string = "\(num9)"
         emotion9Label.text = num9string
         emotion9Label.font = .systemFont(ofSize: 12)
-        
     }
     
     @IBAction func emotion1Tapped(_ sender: UIButton) {
