@@ -25,7 +25,7 @@ class EmotionViewController: UIViewController {
     @IBOutlet var emotion9Button: UIButton!
     
     
-    //버튼 Label
+    //버튼 타이틀
     @IBOutlet var buttonTitle1Label: UILabel!
     @IBOutlet var buttonTitle2Label: UILabel!
     @IBOutlet var buttonTitle3Label: UILabel!
@@ -36,7 +36,7 @@ class EmotionViewController: UIViewController {
     @IBOutlet var buttonTitle8Label: UILabel!
     @IBOutlet var buttonTitle9Label: UILabel!
     
-    //숫자
+    //숫자 (카운트)
     @IBOutlet var emotion1Label: UILabel!
     @IBOutlet var emotion2Label: UILabel!
     @IBOutlet var emotion3Label: UILabel!
@@ -47,24 +47,9 @@ class EmotionViewController: UIViewController {
     @IBOutlet var emotion8Label: UILabel!
     @IBOutlet var emotion9Label: UILabel!
     
-    var num1 = 0
-    var num1string = ""
-    var num2 = 0
-    var num2string = ""
-    var num3 = 0
-    var num3string = ""
-    var num4 = 0
-    var num4string = ""
-    var num5 = 0
-    var num5string = ""
-    var num6 = 0
-    var num6string = ""
-    var num7 = 0
-    var num7string = ""
-    var num8 = 0
-    var num8string = ""
-    var num9 = 0
-    var num9string = ""
+    @IBOutlet var labelList: [UILabel]!
+    //0525 Tag 사용으로 코드 간소화
+    var num = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,157 +66,55 @@ class EmotionViewController: UIViewController {
         mainTitleLabel.textAlignment = .center
         
         //1번버튼
-        emotion1Button.setImage(UIImage(named: "slime1"), for: .normal)
-        
-        buttonTitle1Label.text = "행복해"
-        buttonTitle1Label.font = .systemFont(ofSize: 12)
-        buttonTitle1Label.textAlignment = .center
-
-        num1string = "\(num1)"
-        emotion1Label.text = num1string
-        emotion1Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion1Button,buttonImageName : "slime1", buttonTitle : buttonTitle1Label, buttonName : "행복해", emotionCountLabel : emotion1Label)
         //2번버튼
-        emotion2Button.setImage(UIImage(named: "slime2"), for: .normal)
-        
-        buttonTitle2Label.text = "사랑해"
-        buttonTitle2Label.font = .systemFont(ofSize: 12)
-        buttonTitle2Label.textAlignment = .center
-        
-        num2string = "\(num2)"
-        emotion2Label.text = num2string
-        emotion2Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion2Button,buttonImageName : "slime2", buttonTitle : buttonTitle2Label, buttonName : "사랑해", emotionCountLabel : emotion2Label)
         //3번버튼
-        emotion3Button.setImage(UIImage(named: "slime3"), for: .normal)
-        
-        buttonTitle3Label.text = "좋아해"
-        buttonTitle3Label.font = .systemFont(ofSize: 12)
-        buttonTitle3Label.textAlignment = .center
-        
-        num3string = "\(num3)"
-        emotion3Label.text = num3string
-        emotion3Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion3Button,buttonImageName : "slime3", buttonTitle : buttonTitle3Label, buttonName : "좋아해", emotionCountLabel : emotion3Label)
         //4번버튼
-        emotion4Button.setImage(UIImage(named: "slime4"), for: .normal)
-        
-        buttonTitle4Label.text = "당황해"
-        buttonTitle4Label.font = .systemFont(ofSize: 12)
-        buttonTitle4Label.textAlignment = .center
-        
-        num4string = "\(num4)"
-        emotion4Label.text = num4string
-        emotion4Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion4Button,buttonImageName : "slime4", buttonTitle : buttonTitle4Label, buttonName : "당황해", emotionCountLabel : emotion4Label)
         //5번버튼
-        emotion5Button.setImage(UIImage(named: "slime5"), for: .normal)
-        
-        buttonTitle5Label.text = "속상해"
-        buttonTitle5Label.font = .systemFont(ofSize: 12)
-        buttonTitle5Label.textAlignment = .center
-        
-        num5string = "\(num5)"
-        emotion5Label.text = num5string
-        emotion5Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion5Button,buttonImageName : "slime5", buttonTitle : buttonTitle5Label, buttonName : "속상해", emotionCountLabel : emotion5Label)
         //6번버튼
-        emotion6Button.setImage(UIImage(named: "slime6"), for: .normal)
-        
-        buttonTitle6Label.text = "우울해"
-        buttonTitle6Label.font = .systemFont(ofSize: 12)
-        buttonTitle6Label.textAlignment = .center
-        
-        num6string = "\(num6)"
-        emotion6Label.text = num6string
-        emotion6Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion6Button,buttonImageName : "slime6", buttonTitle : buttonTitle6Label, buttonName : "우울해", emotionCountLabel : emotion6Label)
         //7번버튼
-        emotion7Button.setImage(UIImage(named: "slime7"), for: .normal)
-      
-        buttonTitle7Label.text = "심심해"
-        buttonTitle7Label.font = .systemFont(ofSize: 12)
-        buttonTitle7Label.textAlignment = .center
-        
-        num7string = "\(num7)"
-        emotion7Label.text = num7string
-        emotion7Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion7Button,buttonImageName : "slime7", buttonTitle : buttonTitle7Label, buttonName : "심심해", emotionCountLabel : emotion7Label)
         //8번버튼
-        emotion8Button.setImage(UIImage(named: "slime8"), for: .normal)
-      
-        buttonTitle8Label.text = "싫어해"
-        buttonTitle8Label.font = .systemFont(ofSize: 12)
-        buttonTitle8Label.textAlignment = .center
-        
-        num8string = "\(num8)"
-        emotion8Label.text = num8string
-        emotion8Label.font = .systemFont(ofSize: 12)
+        buttonSetting(buttonImage : emotion8Button,buttonImageName : "slime8", buttonTitle : buttonTitle8Label, buttonName : "싫어해", emotionCountLabel : emotion8Label)
         //9번버튼
-        emotion9Button.setImage(UIImage(named: "slime9"), for: .normal)
+        buttonSetting(buttonImage : emotion9Button ,buttonImageName : "slime9", buttonTitle : buttonTitle9Label, buttonName : "증오해", emotionCountLabel : emotion9Label)
+        
+        //기본 횟수 적기
+        emotion1Label.text = "\(num[0])"
+        emotion2Label.text = "\(num[1])"
+        emotion3Label.text = "\(num[2])"
+        emotion4Label.text = "\(num[3])"
+        emotion5Label.text = "\(num[4])"
+        emotion6Label.text = "\(num[5])"
+        emotion7Label.text = "\(num[6])"
+        emotion8Label.text = "\(num[7])"
+        emotion9Label.text = "\(num[8])"
+        
+    }
+    //0520 버튼이름및이미지/레이블설정함수
+    func buttonSetting(buttonImage : UIButton, buttonImageName : String, buttonTitle : UILabel, buttonName : String, emotionCountLabel : UILabel ){
+        buttonImage.setImage(UIImage(named: buttonImageName ), for: .normal)
       
-        buttonTitle9Label.text = "증오해"
-        buttonTitle9Label.font = .systemFont(ofSize: 12)
-        buttonTitle9Label.textAlignment = .center
-        
-        num9string = "\(num9)"
-        emotion9Label.text = num9string
-        emotion9Label.font = .systemFont(ofSize: 12)
+        buttonTitle.text = buttonName
+        buttonTitle.font = .systemFont(ofSize: 12)
+        buttonTitle.textAlignment = .center
+    
+        //emotion9Label.text = "\(num)"
+        emotionCountLabel.font = .systemFont(ofSize: 12)
     }
     
-    @IBAction func emotion1Tapped(_ sender: UIButton) {
-        num1 = num1 + 1
-        num1string = "\(num1)"
+    @IBAction func EmotionButtonClicked(_ sender: UIButton) {
+        //버튼 마다 tag를 지정해준다 (9개면 0~8)
+        //num이라는 변수를 list로 하여 모두 0으로 선언해주고, n번 째 행을 사용하여 한줄의 코드로 간소화
+        num[sender.tag] = num[sender.tag] + 1
         
-        emotion1Label.text = num1string
+        labelList[sender.tag].text = "\(num[sender.tag])"
     }
     
-    @IBAction func emtion2Tapeed(_ sender: UIButton) {
-        num2 = num2 + 1
-        num2string = "\(num2)"
-        
-        emotion2Label.text = num2string
-    }
     
-    @IBAction func emtion3Tapeed(_ sender: UIButton) {
-        num3 = num3 + 1
-        num3string = "\(num3)"
-        
-        emotion3Label.text = num3string
-    }
-    
-    @IBAction func emtion4Tapeed(_ sender: UIButton) {
-        num4 = num4 + 1
-        num4string = "\(num4)"
-        
-        emotion4Label.text = num4string
-    }
-    
-    @IBAction func emotion5Tapped(_ sender: UIButton) {
-        num5 = num5 + 1
-        num5string = "\(num5)"
-        
-        emotion5Label.text = num5string
-    }
-    
-    @IBAction func emtion6Tapped(_ sender: UIButton) {
-        num6 = num6 + 1
-        num6string = "\(num6)"
-        
-        emotion6Label.text = num6string
-    }
-    
-    @IBAction func emotion7Tapped(_ sender: UIButton) {
-        num7 = num7 + 1
-        num7string = "\(num7)"
-        
-        emotion7Label.text = num7string
-    }
-    
-    @IBAction func emotion8Tapped(_ sender: UIButton) {
-        num8 = num8 + 1
-        num8string = "\(num8)"
-        
-        emotion8Label.text = num8string
-    }
-    
-    @IBAction func emotion9Tapped(_ sender: UIButton) {
-        num9 = num9 + 1
-        num9string = "\(num9)"
-        
-        emotion9Label.text = num9string
-    }
 }

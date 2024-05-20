@@ -36,79 +36,79 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emotion1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4v0-g2-tXI"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zNo-MR-L7h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-EH-Ode">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-EH-Ode">
                                 <rect key="frame" x="147" y="258" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emtion2Tapeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k0T-MS-HjQ"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4F-ss-4qo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16W-Lv-viD">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16W-Lv-viD">
                                 <rect key="frame" x="245" y="258" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emtion3Tapeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Det-Ok-H4D"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UEP-Ox-BBI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg6-Cc-XG2">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg6-Cc-XG2">
                                 <rect key="frame" x="51" y="377" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emtion4Tapeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="19P-vI-zAF"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rB0-ER-377"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQP-wn-IQz">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQP-wn-IQz">
                                 <rect key="frame" x="147" y="377" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emotion5Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfI-sI-Ku7"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="urm-Oe-SR7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEa-Pk-mLp">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEa-Pk-mLp">
                                 <rect key="frame" x="245" y="377" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emtion6Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cl0-25-XkX"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oGt-7Y-tsl"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phf-Ru-HFN">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phf-Ru-HFN">
                                 <rect key="frame" x="51" y="500" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emotion7Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHZ-TJ-z6O"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9y-ZB-rKb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcs-yU-JVU">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcs-yU-JVU">
                                 <rect key="frame" x="147" y="500" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emotion8Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yKh-jC-jxY"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFQ-du-Lcd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJe-i1-hgp">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJe-i1-hgp">
                                 <rect key="frame" x="245" y="500" width="75" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="emotion9Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQs-nt-WFj"/>
+                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bi2-Yb-zH9"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBv-fO-JeR">
@@ -271,37 +271,28 @@
                         <outlet property="emotion9Label" destination="qmA-Sf-Unl" id="C5P-Ce-ML5"/>
                         <outlet property="listButton" destination="wph-6Q-Egj" id="PwX-p7-GYE"/>
                         <outlet property="mainTitleLabel" destination="d33-3P-9nw" id="6RP-V8-8YX"/>
+                        <outletCollection property="labelList" destination="Q1x-eL-72w" collectionClass="NSMutableArray" id="KMW-6Y-FbX"/>
+                        <outletCollection property="labelList" destination="bAI-zC-x34" collectionClass="NSMutableArray" id="yov-4h-qkN"/>
+                        <outletCollection property="labelList" destination="Wv0-kG-L8C" collectionClass="NSMutableArray" id="wfD-IZ-5TM"/>
+                        <outletCollection property="labelList" destination="euH-mp-vPc" collectionClass="NSMutableArray" id="vjR-60-ocP"/>
+                        <outletCollection property="labelList" destination="StH-bl-n1r" collectionClass="NSMutableArray" id="MfO-pc-lvZ"/>
+                        <outletCollection property="labelList" destination="ARp-Fd-58j" collectionClass="NSMutableArray" id="zzZ-3n-oYf"/>
+                        <outletCollection property="labelList" destination="GEa-It-Eyi" collectionClass="NSMutableArray" id="DSH-mz-GLB"/>
+                        <outletCollection property="labelList" destination="G2P-8I-jxk" collectionClass="NSMutableArray" id="hjU-tY-inK"/>
+                        <outletCollection property="labelList" destination="qmA-Sf-Unl" collectionClass="NSMutableArray" id="Blw-cT-wgz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="119.84732824427481" y="-34.507042253521128"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="CAm-AB-YZC">
-            <objects>
-                <viewController id="W8t-sS-Q8q" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="das-EG-m56">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="XCn-tT-aGp"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bpx-pL-Xcy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="982" y="-35"/>
-        </scene>
     </scenes>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBrownColor">
-            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
