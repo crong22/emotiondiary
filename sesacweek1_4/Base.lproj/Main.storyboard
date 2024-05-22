@@ -36,7 +36,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zNo-MR-L7h"/>
+                                    <action selector="ButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zoU-iy-W77"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul5-EH-Ode">
@@ -45,7 +45,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4F-ss-4qo"/>
+                                    <action selector="Button1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYK-pL-YVq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16W-Lv-viD">
@@ -54,7 +54,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UEP-Ox-BBI"/>
+                                    <action selector="Button2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2b-OH-1Pq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg6-Cc-XG2">
@@ -63,7 +63,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rB0-ER-377"/>
+                                    <action selector="Button3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="esJ-Pt-GJx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQP-wn-IQz">
@@ -72,7 +72,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="urm-Oe-SR7"/>
+                                    <action selector="Button4Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k1h-5m-hyv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEa-Pk-mLp">
@@ -81,7 +81,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oGt-7Y-tsl"/>
+                                    <action selector="Button5Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aLJ-FU-wub"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phf-Ru-HFN">
@@ -90,7 +90,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9y-ZB-rKb"/>
+                                    <action selector="Button6Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XRV-aN-1LF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcs-yU-JVU">
@@ -99,7 +99,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFQ-du-Lcd"/>
+                                    <action selector="Button7Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kqd-a1-oUo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJe-i1-hgp">
@@ -108,7 +108,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="EmotionButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bi2-Yb-zH9"/>
+                                    <action selector="Button8Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gSc-5O-mXj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OBv-fO-JeR">
@@ -237,6 +237,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOg-IK-630">
+                                <rect key="frame" x="78" y="654" width="219" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hbx-RE-zhV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
@@ -271,6 +282,7 @@
                         <outlet property="emotion9Label" destination="qmA-Sf-Unl" id="C5P-Ce-ML5"/>
                         <outlet property="listButton" destination="wph-6Q-Egj" id="PwX-p7-GYE"/>
                         <outlet property="mainTitleLabel" destination="d33-3P-9nw" id="6RP-V8-8YX"/>
+                        <outlet property="resetButton" destination="iOg-IK-630" id="FSg-hd-uhV"/>
                         <outletCollection property="labelList" destination="Q1x-eL-72w" collectionClass="NSMutableArray" id="KMW-6Y-FbX"/>
                         <outletCollection property="labelList" destination="bAI-zC-x34" collectionClass="NSMutableArray" id="yov-4h-qkN"/>
                         <outletCollection property="labelList" destination="Wv0-kG-L8C" collectionClass="NSMutableArray" id="wfD-IZ-5TM"/>
@@ -292,7 +304,10 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
